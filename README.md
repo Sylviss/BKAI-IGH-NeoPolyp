@@ -7,6 +7,9 @@ weight files: https://drive.google.com/file/d/1jmcJWidEAUEHdl-doNnXuAccblYv2Q11/
 the weight should be at the top directory together with the infer.py
 
 commands:
+
 git clone https://github.com/Sylviss/BKAI-IGH-NeoPolyp
+
 cd BKAI-IGH-NeoPolyp
+
 python3 infer.py --image_path image.jpeg
