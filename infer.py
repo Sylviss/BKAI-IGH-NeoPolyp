@@ -44,6 +44,8 @@ def main(img_path):
     mask_rgb = mask_to_rgb(mask)
     mask_rgb = cv2.cvtColor(mask_rgb, cv2.COLOR_RGB2BGR)
     hehe = os.path.dirname(img_path)
+    if hehe == "":
+        hehe = "."
     cv2.imwrite(f"{hehe}/output.jpeg", mask_rgb)
     print(f"Image successfully created at {hehe}/output.jpeg!")
  
