@@ -162,4 +162,7 @@ cython_debug/
 data/
 src/wandb
 model.pth
-src/weight.pth
+weight.pth
+image.jpeg
+output.jpeg
+src/prediction
